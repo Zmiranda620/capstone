@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+/* Form styles(Abraham) */
+
+form {
+    height: 24%;
+    border: 3px solid royalblue;
+    border-radius: 10px;
+    background-color: aliceblue;
+    display: inline block;
+    width: 70%;
+    min-width: 350px;
+    max-width: 830px;
+}
+
+fieldset {
+    border: 0;
+}
+
+fieldset div {
+    margin-left: 1000px;
+}
+
+label {
+    padding: 10px;
+}
+
+input {
+    margin: 10px;
+}
+
+input,
+select,
+textarea {
+    background-color: #FBEC88;
+}
+
+select {
+    margin: 10px 0px;
+}
+
+input:valid:focus {
+    background-color: greenyellow;
+}
+
+input:invalid:focus {
+    background-color: #FE6A6A;
+}
+
+input#submit {
+    background-color: white;
+}
+
+section#box {
+    display: inline-flex;
+    flex-flow: row wrap;
+    padding: 0px 10px;
+}
+
+form div {
+    display: inline-block;
+    width: 40%;
+}
+
+input#submit {
+    width: 75px;
+    font-size: 2rem;
+}
+
+@media screen and (min-width: 400px) {
+    form {
+        margin-left: 5%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    form {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    form {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    form {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
+fieldset#cards label.cardLabel {
+    display: inline-block;
+    float: none;
+    width: auto;
+}
+
+fieldset#cards img {
+    display: inline-block;
+    margin-left: 5px;
+    box-shadow: 0px 0px 10px rgb(124, 92, 54);
+}
+
+fieldset#cards input[type='radio'] {
+    display: inline-block;
+    width: auto;
+    float: none;
+    clear: none;
+}
+
+fieldset#cards {
+    text-align: left;
+    margin-left: 50px;
+}
+
+fieldset#cards span {
+    width: 30px;
+    text-align: center;
+    display: block;
+    float: left;
+}
+
+fieldset#cards input#cvc {
+    width: 3em;
+}
+
+fieldset#cards input#subButton {
+    display: block;
+    width: 180px;
+    height: 35px;
+    margin: 15px 0px 10px 200px;
+    background-color: rgba(232, 218, 201, 0.8);
+    font-size: 1.3em;
+    border-radius: 20px;
+    float: none;
+}

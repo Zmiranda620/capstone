@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<!--
+Capstone Project
+
+Contributors: Abraham Aguilar,
+Date: 1.10.17
+
+index.html
+ -->
+
+<head>
+    <meta charset="utf-8">
+    <title>Emergency Disaster Aversion</title>
+    <link rel="stylesheet" href="CSS/results.css">
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="stock.html">Shop</a>
+        <a href="description.html">Package Description</a>
+        <a href="about.html">About us</a>
+
+    </div>
+    <section>
+        <article class="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </article>
+        <form id="payment">
+            <section id="box">
+                <section id="box contents">
+                    <p>Your package will contain:</p>
+                    <span></span>
+                    <span></span>
+                    <span></span><br><br>
+                    <span></span>
+                    <span></span>
+                    <span></span><br><br>
+                    <span></span>
+                    <span></span>
+                    <span></span><br><br>
+                    <span></span>
+                    <span></span>
+                    <span></span><br><br>
+                    <span></span>
+                    <span></span>
+                </section>
+                <p><strong>Your details:</strong><br/>Name: <span id="name" class="details"></span><br/>Email: <span id="email" class="details"></span><br/>Phone Number: <span id="phone" class="details"></span><br/>Product Choice: <span id="product" class="details"></span></p>
+            </section>
+            <fieldset id="creditcard">
+                <legend>Credit Information</legend>
+
+                <fieldset id="cards">
+                    <label class="cardLabel">Credit Card*</label>
+                    <label class="cardLabel">
+                  <input name="credit" id="credit" value="amex" type="radio" required />
+                  <img src="amex.png" alt="American Express" />
+               </label>
+                    <label class="cardLabel">               
+                  <input name="credit" id="credit" value="discover" type="radio" />
+                  <img src="discover.png" alt="Discover" />
+               </label>
+                    <label class="cardLabel">                  
+                  <input name="credit" id="credit" value="master" type="radio"  />
+                  <img src="master.png" alt="MasterCard" />
+               </label>
+                    <label class="cardLabel">                  
+                  <input name="credit" id="credit" value="visa" type="radio"  />
+                  <img src="visa.png" alt="Visa" />
+               </label>
+                </fieldset>
+
+                <label for="cardNumber">Credit Card Number*</label>
+                <input name="cardNumber" id="cardNumber" required type="text" pattern="^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|6(?:011|5[0-9][0-9])[0-9]{12}|3[47][0-9]{13}|3(?:0[0-5]|[68][0-9])[0-9]{11}|(?:2131|1800|35\d{3})\d{11})$" />
+
+                <label for="expMonth">Expiration Date*</label>
+                <select id="expMonth" name="expMonth">
+               <option value="mm">mm</option>
+               <option value="01">01</option>
+               <option value="01">02</option>
+               <option value="01">03</option>
+               <option value="01">04</option>
+               <option value="01">05</option>
+               <option value="01">06</option>
+               <option value="01">07</option>
+               <option value="01">08</option>
+               <option value="01">09</option>
+               <option value="01">10</option>
+               <option value="01">11</option>
+               <option value="01">12</option>
+            </select>
+                <span>  </span>
+                <select id="expYear" name="expYear">
+               <option value="yy">yy</option>
+               <option value="2018">2018</option>
+               <option value="2019">2019</option>
+               <option value="2020">2020</option>
+               <option value="2021">2021</option>
+               <option value="2022">2022</option>
+            </select>
+
+                <label for="cvc">CVC*</label>
+                <input name="cvc" id="cvc" required pattern="^\d{3,4}$" type="text" />
+            </fieldset>
+
+            <p id="footnote">* - Required Item</p>
+            <input type="submit" id="subButton" value="Submit Payment" />
+        </form>
+    </section>
+    <section>
+        <article class="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </article>
+    </section>
+    <aside class="">
+        <article class="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </article>
+    </aside>
+    <section>
+        <article class="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </article>
+    </section>
+    <aside class="">
+        <article class="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </article>
+    </aside>
+    <figure>
+        <figcaption></figcaption>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </figure>
+    <footer></footer>
+    <script src="JS/results.js"></script>
+</body>
+
+</html>
